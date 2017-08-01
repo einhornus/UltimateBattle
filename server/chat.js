@@ -23,6 +23,13 @@ io.on('connection', function (socket) {
     });
 });
 
+var lib = require('..\\lib\\ultimateBattleLib.js');
+
+
+
+wrd = new lib.Lib.World();
+wrd.bark();
+
 
 
 
