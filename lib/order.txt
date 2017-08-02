@@ -1,2 +1,9 @@
 utils/utils.js
+geom/Point.js
+world/objects/WorldObject.js
+world/objects/collisions.js
+world/objects/RectangularObject.js
+world/objects/CircularObject.js
+world/objects/Block.js
 world/World.js
+world/Event.js
