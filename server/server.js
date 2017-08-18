@@ -7,29 +7,35 @@ var log4js = require('log4js');
 var port = 3000;
 console.log("started");
 server.listen(port);
+var lib = require('..\\lib\\ultimateBattleLib.js');
+var Lib = lib.Lib;
+
+var world = new Lib.World();
+var obj = new Lib.Block(15, 10, 100, 2);
+world.objects.push(obj);
+
+var mov = new Lib.MovingObject(new Lib.Circle(10, 6, 1));
+world.objects.push(mov);
+
 
 io.on('connection', function (socket) {
-    var name = 'U' + (socket.id).toString().substr(1, 4);
-    socket.broadcast.emit('newUser', name);
-    socket.emit('userName', name);
-    console.log(name + ' connected to chat!');
+    console.log(world);
+    socket.emit('world', world);
 
 
+    socket.emit('meh', function(a, b){
+        return a+b;
+    });
+
+
+    /*
     socket.on('message', function (msg) {
         console.log('-----------');
         console.log('User: ' + name + ' | Message: ' + msg);
         console.log('====> Sending message to other chatters...');
-        io.sockets.emit('messageToClients', msg, name);
     });
+    */
 });
-
-var lib = require('..\\lib\\ultimateBattleLib.js');
-
-
-
-wrd = new lib.Lib.World();
-wrd.bark();
-
 
 
 
