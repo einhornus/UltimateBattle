@@ -149,7 +149,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../client" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
@@ -347,12 +347,12 @@
       <workItem from="1501412855649" duration="1074000" />
       <workItem from="1501599594298" duration="5049000" />
       <workItem from="1502961043671" duration="4850000" />
-      <workItem from="1503054825919" duration="1559000" />
+      <workItem from="1503054825919" duration="1873000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33495000" />
+    <option name="totallyTimeSpent" value="33809000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">

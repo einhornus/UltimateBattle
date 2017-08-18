@@ -50,7 +50,7 @@
       <file leaf-file-name="World.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/world/World.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
+            <state relative-caret-position="783">
               <caret line="29" column="2" lean-forward="true" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
               <folding />
             </state>
@@ -351,12 +351,12 @@
       <workItem from="1502438593118" duration="240000" />
       <workItem from="1502870454201" duration="15294000" />
       <workItem from="1502953163999" duration="10711000" />
-      <workItem from="1503054654129" duration="2796000" />
+      <workItem from="1503054654129" duration="3109000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58999000" />
+    <option name="totallyTimeSpent" value="59312000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -738,7 +738,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/world/World.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
+        <state relative-caret-position="783">
           <caret line="29" column="2" lean-forward="true" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
           <folding />
         </state>

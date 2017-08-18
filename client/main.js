@@ -1,17 +1,20 @@
+console.log(Lib);
+
 width = 1200;
 height = 800;
 
-var app = new PIXI.Application(1200, 800, {backgroundColor : 0x1099bb});
-document.body.appendChild(app.view);
-var bunny = PIXI.Sprite.fromImage('images/image.jpg')
-bunny.anchor.set(0.5);
-bunny.x = app.renderer.width / 2;
-bunny.y = app.renderer.height / 2;
-app.stage.addChild(bunny);
-app.ticker.add(function(delta) {
-    bunny.rotation += 0.1 * delta;
-});
+//init();
 
-
+var world;
 var port = 3000;
 var socket = io.connect('http://localhost:' + port);
+socket.on('world', function (w) {
+    world = w;
+    console.log(Lib.getMethods(world));
+    console.log(world);
+});
+
+socket.on('meh', function (w) {
+    console.log(w)
+    console.log(w(3, 4))
+});
