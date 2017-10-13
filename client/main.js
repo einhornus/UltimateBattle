@@ -5,7 +5,7 @@ height = 800;
 
 //init();
 
-var world;
+var world = new Lib.World();
 var port = 3000;
 var socket = io.connect('http://localhost:' + port);
 socket.on('world', function (w) {
